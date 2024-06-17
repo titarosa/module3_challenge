@@ -34,9 +34,12 @@ const collectEmployees = function() {
      proceed = confirm("Would you like to include another employee?");
   }
 
+
   // RETURN THE DATA
   return employees;
 }
+
+
 
 // DISPLAY THE AVERAGE SALARY
 const displayAverageSalary = function(employeesArray) {
